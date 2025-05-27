@@ -34,8 +34,3 @@ curl -X POST http://localhost:8000/chat \
 # Ожидаемый ответ (пример):
 # {"response": {"utc": "2025-05-21T06:42:00Z"}}
 ```
-
-## ⚠️ Условия выполнения
-- Только 1 инструмент (`get_current_time`)
-- Stateless режим (нет сохранения истории)
-- Работает через `langgraph dev` (через FastAPI)
